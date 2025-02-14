@@ -1,0 +1,1 @@
+I have hard time connecting to wifi. But this scripts able to connect, not always but sometime.
