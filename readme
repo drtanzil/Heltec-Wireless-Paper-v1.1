@@ -1,0 +1,45 @@
+Heltec Wireless Paper v. 1.1
+https://heltec.org/project/wireless-paper/
+
+------------------------------------------
+Chip Info:
+------------------------------------------
+  Model             : ESP32-S3
+  Package           : 0
+  Revision          : 1
+  Cores             : 2
+  CPU Frequency     : 240 MHz
+  XTAL Frequency    : 40 MHz
+  Embedded Flash    : No
+  Embedded PSRAM    : No
+  2.4GHz WiFi       : Yes
+  Classic BT        : No
+  BT Low Energy     : Yes
+  IEEE 802.15.4     : No
+------------------------------------------
+INTERNAL Memory Info:
+------------------------------------------
+  Total Size        :   374116 B ( 365.3 KB)
+  Free Bytes        :   345540 B ( 337.4 KB)
+  Allocated Bytes   :    23672 B (  23.1 KB)
+  Minimum Free Bytes:   340232 B ( 332.3 KB)
+  Largest Free Block:   303092 B ( 296.0 KB)
+------------------------------------------
+Flash Info:
+------------------------------------------
+  Chip Size         :  8388608 B (8 MB)
+  Block Size        :    65536 B (  64.0 KB)
+  Sector Size       :     4096 B (   4.0 KB)
+  Page Size         :      256 B (   0.2 KB)
+  Bus Speed         : 80 MHz
+  Bus Mode          : QIO
+------------------------------------------
+Partitions Info:
+------------------------------------------
+                nvs : addr: 0x00009000, size:    20.0 KB, type: DATA, subtype: NVS
+            otadata : addr: 0x0000E000, size:     8.0 KB, type: DATA, subtype: OTA
+               app0 : addr: 0x00010000, size:  3264.0 KB, type:  APP, subtype: OTA_0
+               app1 : addr: 0x00340000, size:  3264.0 KB, type:  APP, subtype: OTA_1
+             spiffs : addr: 0x00670000, size:  1536.0 KB, type: DATA, subtype: SPIFFS
+           coredump : addr: 0x007F0000, size:    64.0 KB, type: DATA, subtype: COREDUMP
+------------------------------------------
